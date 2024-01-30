@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BMICalculator"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgDesign"
+            android:layout_width="0dp"
+            android:layout_height="153dp"
+            android:layout_weight="1"
+            android:maxWidth="100dp"
+            app:srcCompat="@drawable/strong_man"
+            android:contentDescription="UI Design" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/layout_design">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="90dp">
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="Height"
+                android:textSize="30sp"
+                android:paddingStart="50dp"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text=":"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:paddingHorizontal="10dp"/>
+
+            <TextView
+                android:id="@+id/txtHeight"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text=""
+                android:textSize="30sp"
+                android:paddingStart="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="Weight"
+                android:textSize="30sp"
+                android:paddingStart="50dp"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text=":"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:paddingHorizontal="10dp"/>
+
+            <TextView
+                android:id="@+id/txtWeight"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text=""
+                android:textSize="30sp"
+                android:paddingStart="50dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnGetValues"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btnsetvalues"
+                android:layout_marginEnd="30dp"
+                android:text="Set Height and Width"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/btnCalculate"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btncalculate"
+                android:text="Calculate"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

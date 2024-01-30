@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "951129448934",
+    "project_id": "memonile-86e88",
+    "storage_bucket": "memonile-86e88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951129448934:android:7de8c1edec2085b9327627",
+        "android_client_info": {
+          "package_name": "com.project.bmicalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951129448934-4k9amuj8bdaonu0oetsnmqj2ceg109sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDenS06aMEOiudtMXvCBMHeOTfN2qNAEVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951129448934-4k9amuj8bdaonu0oetsnmqj2ceg109sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
